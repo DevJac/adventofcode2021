@@ -17,6 +17,10 @@ common default
                       , rio
                       , megaparsec
 
-executable advent-of-code2021
+executable day1
     import:             default
-    main-is:            Main.hs
+    main-is:            Day1.hs
+
+executable day2
+    import:             default
+    main-is:            Day2.hs
